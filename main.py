@@ -8,7 +8,7 @@ names = names_string.split(", ")
 
 #Write your code below this line 👇
 
-last_person = len(names)
+last_person = len(names) - 1
 
 random_person = random.randint(0, last_person)
 
